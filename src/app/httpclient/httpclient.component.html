@@ -1,0 +1,10 @@
+ 
+
+
+
+ <input type="text"  [(ngModel)] = "username">
+ <button (click)="submit()">Fetch</button>
+
+ <div *ngIf="isFetched">
+  <h1>{{httpResponse.id}}</h1>
+ </div>
